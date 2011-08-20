@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Asynchronous Modules Loading</title>
+    <link rel="stylesheet" type="text/css" href="/shared.css" />
+    <script src="http://cdn.lovely.io/core-1.0.2.js"></script>
+    <script type="text/javascript">
+      Lovely(['dom-1.0.2', 'ajax-1.0.2', 'fx-1.0.2'], function($, Ajax) {
+        $(function() {
+          Ajax.load('/lorem.html', {
+            success: function() {
+              $('#container')
+                .html(this.responseText)
+                .highlight();
+            }
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Asynchronous Modules Loading</h1>
+
+    <div id="container">Loading...</div>
+  </body>
+</html>

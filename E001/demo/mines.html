@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mines Game</title>
+    <link rel="stylesheet" type="text/css" href="/shared.css" />
+    <script src="http://cdn.lovely.io/core-1.0.2.js"></script>
+    <script type="text/javascript">
+      Lovely(['dom-1.0.2', 'mines-game'], function($, Game) {
+        $(function() {
+          new Game().insertTo('#container');
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Mines Game</h1>
+
+    <div id="container"></div>
+  </body>
+</html>

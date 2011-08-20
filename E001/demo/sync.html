@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Synchronous Modules Loading</title>
+    <link rel="stylesheet" type="text/css" href="/shared.css" />
+    <script src="http://cdn.lovely.io/core-1.0.2.js"></script>
+    <script src="http://cdn.lovely.io/dom-1.0.2.js"></script>
+    <script src="http://cdn.lovely.io/ajax-1.0.2.js"></script>
+    <script src="http://cdn.lovely.io/fx-1.0.2.js"></script>
+    <script type="text/javascript">
+      var $    = Lovely.module('dom');
+      var Ajax = Lovely.module('ajax');
+
+      $(function() {
+        Ajax.load('/lorem.html', {
+          success: function() {
+            $('#container')
+              .html(this.responseText)
+              .highlight();
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Synchronous Modules Loading</h1>
+
+    <div id="container">Loading...</div>
+  </body>
+</html>
