@@ -1,0 +1,7 @@
+{
+  "name":        "killie",
+  "version":     "1.0.0",
+  "description": "Shows a little hello to the old IE browser users",
+  "author":      "Nikolay Nemshilov",
+  "license":     "MIT"
+}
