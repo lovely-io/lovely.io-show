@@ -1,4 +1,22 @@
-<p id="notice"><%= notice %></p>
+<h1><%= @post.title %></h1>
+
+<%= simple_format @post.text %>
+
+
+<h2>Comments</h2>
+
+<div id="#comments">
+  <% @post.comments.each do |comment| %>
+    <article class="comment">
+      <%= simple_format comment.text %>
+      <%= link_to 'Delete', comment, method: :delete, confirm: "Are you sure?"%>
+    </article>
+  <% end %>
+</div>
+
+<%- @comment = Comment.new(post: @post) %>
+<%= render 'comments/form' %>
+
 
 
 <%= link_to 'Edit', edit_post_path(@post) %> |

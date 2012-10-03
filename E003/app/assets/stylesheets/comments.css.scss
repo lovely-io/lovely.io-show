@@ -1,3 +1,13 @@
 // Place all the styles related to the comments controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.comment {
+  position: relative;
+
+  a[data-method="delete"] {
+    position: absolute;
+    top:      .5em;
+    right:    0em;
+    font-size: 80%;
+  }
+}

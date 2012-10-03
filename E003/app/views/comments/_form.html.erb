@@ -11,7 +11,13 @@
     </div>
   <% end %>
 
+  <p>
+    <%= f.label :text %>
+    <%= f.text_area :text %>
+  </p>
+
   <div class="actions">
+    <%= f.hidden_field :post_id %>
     <%= f.submit %>
   </div>
 <% end %>
