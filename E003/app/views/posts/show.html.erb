@@ -5,13 +5,8 @@
 
 <h2>Comments</h2>
 
-<div id="#comments">
-  <% @post.comments.each do |comment| %>
-    <article class="comment">
-      <%= simple_format comment.text %>
-      <%= link_to 'Delete', comment, method: :delete, confirm: "Are you sure?"%>
-    </article>
-  <% end %>
+<div id="comments">
+  <%= render @post.comments %>
 </div>
 
 <%- @comment = Comment.new(post: @post) %>
