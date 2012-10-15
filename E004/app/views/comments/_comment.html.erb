@@ -1,0 +1,4 @@
+<%= content_tag_for :article, comment do %>
+  <%= simple_format comment.text %>
+  <%= link_to 'Delete', comment, method: :delete, confirm: "Are you sure?"%>
+<% end %>
