@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mines Demo</title>
+    <link href="/shared.css" rel="stylesheet" type="text/css" />
+    <script src="/core.js"></script>
+    <script type="text/javascript">
+      Lovely(["mines-game"], function(Game) {
+        new Game(10, 10, 6).insertTo('#test');
+      });
+    </script>
+    <!--
+      NOTE: do not include anything else in here!
+        all the styles and builds will be handled
+        automatically by the development server
+    -->
+  </head>
+  <body>
+    <h1>Mines Demo</h1>
+
+    <div id="test"></div>
+  </body>
+</html>
