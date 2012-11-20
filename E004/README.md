@@ -1,7 +1,8 @@
 # Lovely.IO Show E005
 
-In this episode of the [lovely.io show](http://lovely.io/show) we continue
-to work on our little rails based blogging application.
+In [this episode](http://lovely.io/show/you-first-dom-wrapper) of the
+[lovely.io show](http://lovely.io/show) we continue to work on our little
+rails based blogging application.
 
 This time we explore the nature of object oriented dom-wrappers and how
 those things work in `lovely.io`. We convert some of our spaghetti code

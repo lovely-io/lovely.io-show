@@ -1,7 +1,8 @@
 # Lovely.IO Show E005
 
-In this episode of the [lovely.io show](http://lovely.io/show) we continue
-to work on our little rails based blogging application.
+In [this episode](http://lovely.io/show/mvc-is-everywhere) of the
+[lovely.io show](http://lovely.io/show) we continue to work on our little
+rails based blogging application.
 
 This time we show how to make local modules for lovely.io and convert your
 simple dom-wrappers into proper MVC controllers.

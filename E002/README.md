@@ -1,7 +1,7 @@
 # Lovely IO Show, Episode #002
 
-This episode describes how to make simple packages for lovely.io,
-how to register in the system and how to publish your modules
+[This episode](http://lovely.io/show/making-a-simple-package) describes how to make
+simple packages for lovely.io, how to register in the system and how to publish your modules
 
 ## Copyright & License
 

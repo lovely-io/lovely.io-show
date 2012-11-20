@@ -1,8 +1,8 @@
 # Lovely.IO Show E006
 
-In this episode we explore the MVC features of lovely.io and showing
-the multileveled MVC structure that can be extremely useful in case
-of complex front-side applications.
+In [this episode](http://lovely.io/show/multileveled-mvc-in-action) we explore
+the MVC features of lovely.io and showing the multileveled MVC structure that
+can be extremely useful in case of complex front-side applications.
 
 ## How To Use
 

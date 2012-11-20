@@ -1,8 +1,8 @@
 # Lovely.IO Show E005
 
-In this episode of the [lovely.io show](http://lovely.io/show) we show
-the very basics of the `lovely.io` usage on example of a simple rails based
-blogging applications.
+In [this episode](http://lovely.io/show/a-simple-rails-app-case) of the
+[lovely.io show](http://lovely.io/show) we show the very basics of the `lovely.io`
+usage on example of a simple rails based blogging applications.
 
 This episode shows how to include `lovely.io` from it's CDN hosting, how to
 load modules and how to perform basic DOM and AJAX operations with it.
