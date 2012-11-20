@@ -17,5 +17,5 @@ class Smile extends Element
   fail: ->
     @addClass('fail')
 
-  dome: ->
+  done: ->
     @addClass('done')
