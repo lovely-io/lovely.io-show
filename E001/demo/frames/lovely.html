@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>var time = new Date();</script>
+    <script src="http://cdn.lovely.io/core-1.4.0.js"></script>
+    <script>console.log("Lovely.IO Core: ", new Date() - time);</script>
+    <script>
+      Lovely(['dom-1.4.2', 'ajax-1.1.4', 'fx-1.1.1'], function($) {
+        console.log("Lovely.IO Async: ", new Date() - time);
+      });
+    </script>
+  </head>
+</html>
