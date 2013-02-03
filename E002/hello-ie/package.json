@@ -1,0 +1,7 @@
+{
+  "name":        "hello-ie",
+  "version":     "1.0.0",
+  "description": "Shows an hello dialog for the old IE browers users",
+  "author":      "Nikolay Nemshilov",
+  "license":     "MIT"
+}

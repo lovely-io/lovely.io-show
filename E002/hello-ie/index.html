@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HelloIe Demo</title>
+    <link href="/shared.css" rel="stylesheet" type="text/css" />
+    <script src="/core.js"></script>
+    <script type="text/javascript">
+      Lovely(["hello-ie"], function(module) {
+
+      });
+    </script>
+    <!--
+      NOTE: do not include anything else in here!
+        all the styles and builds will be handled
+        automatically by the development server
+    -->
+  </head>
+  <body>
+    <h1>HelloIe Demo</h1>
+
+    <a href="#" onclick="Lovely.module('hello-ie').show(); return false">
+      Please show me it in action
+    </a>
+  </body>
+</html>
