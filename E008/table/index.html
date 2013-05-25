@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table Demo</title>
+    <link href="/shared.css" rel="stylesheet" type="text/css" />
+    <script src="/core.js"></script>
+    <script type="text/javascript">
+      Lovely(["dom", "table"], function($, Table) {
+        $(function() {
+          table = new Table(document.getElementById('test'))
+          table.delegate('th', 'click', function() {
+            table.sort(this.index());
+            table.find('th').removeClass('sorted');
+            this.addClass('sorted');
+          });
+        })
+      });
+    </script>
+    <style>
+      table th.sorted {
+        background: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Table Demo</h1>
+    <table id="test">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Awesomeness</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>lovely.io</td><td>10</td></tr>
+          <tr><td>jquery</td><td>20</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td>Total:</td><td>19</td></tr>
+        </tfoot>
+      </table>
+  </body>
+</html>

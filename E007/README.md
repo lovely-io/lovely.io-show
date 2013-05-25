@@ -1,4 +1,4 @@
-# Lovely.IO Show E006
+# Lovely.IO Show E007
 
 In [this episode](http://lovely.io/show/how-to-participate) I'm showing the
 internals of the lovely.io project itself and explain how one can participate

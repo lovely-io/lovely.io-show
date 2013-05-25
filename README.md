@@ -4,6 +4,7 @@ This repository contains the [Lovely.IO Show](http://lovely.io/show) episodes co
 
 ## List Of Episodes
 
+ * [E007: TDD is FTW!](http://lovely.io/show/tdd-is-ftw)
  * [E007: How To Participate](http://lovely.io/show/how-to-participate)
  * [E006: Multileveled MVC in Action](http://lovely.io/show/multileveled-mvc-in-action)
  * [E005: MVC is Everywhere](http://lovely.io/show/mvc-is-everywhere)
